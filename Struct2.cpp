@@ -6,4 +6,3 @@ struct DetailAlamat { //Address Detail
     string kota; //city
 };
 
-stric
