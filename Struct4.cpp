@@ -21,7 +21,7 @@ int main() {
     Mahasiswa mhs[3];
     for (int i = 0; i < 3; i++) {
 
-    cout << "Data Mahasoswa Ke- " << (i+1) << ":" << endl;
+    cout << "Data Mahasiswa Ke- " << (i+1) << ":" << endl;
     cout << "Nomor Mahasiswa : ";
     getline(cin, mhs[i].NIM);
     cout << "Nama Mahasiswa : ";
@@ -37,7 +37,7 @@ int main() {
 
 for (int i = 0; i < 3; i++) {
     cout << endl;
-    cout << "Data Mahasoswa Ke- " << (i+1) << ":" << endl;
+    cout << "Data Mahasiswa Ke- " << (i+1) << ":" << endl;
     cout << "\nNIM : " << mhs[1].NIM;
     cout << "\nNama : " << mhs[1].nama;
     cout << "\nAlamat : ";
